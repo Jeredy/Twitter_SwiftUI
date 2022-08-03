@@ -13,6 +13,10 @@
 		CEB59D5E2893729000C07949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB59D4C2893728D00C07949 /* ContentView.swift */; };
 		CEB59D5F2893729000C07949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB59D4D2893729000C07949 /* Assets.xcassets */; };
 		CEB59D602893729000C07949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB59D4D2893729000C07949 /* Assets.xcassets */; };
+		CED2A521289873F8007C6884 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A520289873F8007C6884 /* UserStatsView.swift */; };
+		CED2A5232898794D007C6884 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A5222898794D007C6884 /* SideMenuOptionRowView.swift */; };
+		CED2A528289A9684007C6884 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A527289A9684007C6884 /* NewTweetView.swift */; };
+		CED2A52A289A97B3007C6884 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A529289A97B3007C6884 /* TextArea.swift */; };
 		CEEB4AEA28960135002FFB83 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AE928960135002FFB83 /* FeedView.swift */; };
 		CEEB4AED2896019A002FFB83 /* TweetsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AEC2896019A002FFB83 /* TweetsRowView.swift */; };
 		CEEB4AF02896054D002FFB83 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AEF2896054D002FFB83 /* MainTabView.swift */; };
@@ -23,7 +27,6 @@
 		CEEB4B0028960C80002FFB83 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AFF28960C80002FFB83 /* TweetFilterViewModel.swift */; };
 		CEEB4B05289610FE002FFB83 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4B04289610FE002FFB83 /* UserRowView.swift */; };
 		CEEB4B0A289614CB002FFB83 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4B09289614CB002FFB83 /* SideMenuView.swift */; };
-		CEEB4B0C289614D7002FFB83 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4B0B289614D7002FFB83 /* SideMenuRowView.swift */; };
 		CEEB4B102896150C002FFB83 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4B0F2896150C002FFB83 /* SideMenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +37,10 @@
 		CEB59D522893729000C07949 /* Twitter_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB59D582893729000C07949 /* Twitter_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB59D5A2893729000C07949 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CED2A520289873F8007C6884 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		CED2A5222898794D007C6884 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
+		CED2A527289A9684007C6884 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		CED2A529289A97B3007C6884 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		CEEB4AE928960135002FFB83 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		CEEB4AEC2896019A002FFB83 /* TweetsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsRowView.swift; sourceTree = "<group>"; };
 		CEEB4AEF2896054D002FFB83 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -44,7 +51,6 @@
 		CEEB4AFF28960C80002FFB83 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 		CEEB4B04289610FE002FFB83 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 		CEEB4B09289614CB002FFB83 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
-		CEEB4B0B289614D7002FFB83 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		CEEB4B0F2896150C002FFB83 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +112,53 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		CED2A524289A964D007C6884 /* UploadTweets */ = {
+			isa = PBXGroup;
+			children = (
+				CED2A526289A966D007C6884 /* View */,
+				CED2A525289A965A007C6884 /* ViewModels */,
+			);
+			path = UploadTweets;
+			sourceTree = "<group>";
+		};
+		CED2A525289A965A007C6884 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CED2A526289A966D007C6884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CED2A527289A9684007C6884 /* NewTweetView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CED2A52B289A9A86007C6884 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CED2A52D289A9A97007C6884 /* ViewModel */,
+				CED2A52C289A9A92007C6884 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CED2A52C289A9A92007C6884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CED2A52D289A9A97007C6884 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CEEB4AE1289600AC002FFB83 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +183,8 @@
 		CEEB4AE4289600D8002FFB83 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CED2A52B289A9A86007C6884 /* Authentication */,
+				CED2A524289A964D007C6884 /* UploadTweets */,
 				CEEB4B06289614A1002FFB83 /* SideMenu */,
 				CEEB4AF428960601002FFB83 /* Profile */,
 				CEEB4AF3289605F2002FFB83 /* Messages */,
@@ -156,6 +211,7 @@
 			children = (
 				CEEB4B03289610ED002FFB83 /* Users */,
 				CEEB4AEB28960185002FFB83 /* Tweets */,
+				CED2A529289A97B3007C6884 /* TextArea.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -260,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				CEEB4B04289610FE002FFB83 /* UserRowView.swift */,
+				CED2A520289873F8007C6884 /* UserStatsView.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -267,8 +324,8 @@
 		CEEB4B06289614A1002FFB83 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				CEEB4B08289614B1002FFB83 /* View */,
 				CEEB4B07289614AA002FFB83 /* VideModel */,
+				CEEB4B08289614B1002FFB83 /* View */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -285,7 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				CEEB4B09289614CB002FFB83 /* SideMenuView.swift */,
-				CEEB4B0B289614D7002FFB83 /* SideMenuRowView.swift */,
+				CED2A5222898794D007C6884 /* SideMenuOptionRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -391,7 +448,6 @@
 				CEEB4AFA2896062A002FFB83 /* MessagesView.swift in Sources */,
 				CEEB4AFE289606DB002FFB83 /* ProfileView.swift in Sources */,
 				CEB59D5D2893729000C07949 /* ContentView.swift in Sources */,
-				CEEB4B0C289614D7002FFB83 /* SideMenuRowView.swift in Sources */,
 				CEEB4AED2896019A002FFB83 /* TweetsRowView.swift in Sources */,
 				CEEB4B0028960C80002FFB83 /* TweetFilterViewModel.swift in Sources */,
 				CEEB4AEA28960135002FFB83 /* FeedView.swift in Sources */,
@@ -399,9 +455,13 @@
 				CEB59D5B2893729000C07949 /* Twitter_SwiftUIApp.swift in Sources */,
 				CEEB4AF628960614002FFB83 /* ExploreView.swift in Sources */,
 				CEEB4B102896150C002FFB83 /* SideMenuViewModel.swift in Sources */,
+				CED2A52A289A97B3007C6884 /* TextArea.swift in Sources */,
+				CED2A5232898794D007C6884 /* SideMenuOptionRowView.swift in Sources */,
+				CED2A528289A9684007C6884 /* NewTweetView.swift in Sources */,
 				CEEB4B05289610FE002FFB83 /* UserRowView.swift in Sources */,
 				CEEB4AF02896054D002FFB83 /* MainTabView.swift in Sources */,
 				CEEB4AF82896061F002FFB83 /* NotificationsView.swift in Sources */,
+				CED2A521289873F8007C6884 /* UserStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
