@@ -28,6 +28,9 @@
 		CED2A543289C4307007C6884 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CED2A542289C4307007C6884 /* FirebaseFirestoreSwift */; };
 		CED2A545289C4307007C6884 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CED2A544289C4307007C6884 /* FirebaseStorage */; };
 		CED2A547289C44AA007C6884 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A546289C44AA007C6884 /* AuthViewModel.swift */; };
+		CED2A549289D51D0007C6884 /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A548289D51D0007C6884 /* ProfilePhotoSelectorView.swift */; };
+		CED2A54C289D6EB0007C6884 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A54B289D6EAF007C6884 /* ImagePicker.swift */; };
+		CED2A54E289EBD2B007C6884 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2A54D289EBD2A007C6884 /* ImageUploader.swift */; };
 		CEEB4AEA28960135002FFB83 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AE928960135002FFB83 /* FeedView.swift */; };
 		CEEB4AED2896019A002FFB83 /* TweetsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AEC2896019A002FFB83 /* TweetsRowView.swift */; };
 		CEEB4AF02896054D002FFB83 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB4AEF2896054D002FFB83 /* MainTabView.swift */; };
@@ -59,6 +62,9 @@
 		CED2A539289C3BF5007C6884 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		CED2A53B289C40B4007C6884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CED2A546289C44AA007C6884 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CED2A548289D51D0007C6884 /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
+		CED2A54B289D6EAF007C6884 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CED2A54D289EBD2A007C6884 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		CEEB4AE928960135002FFB83 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		CEEB4AEC2896019A002FFB83 /* TweetsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsRowView.swift; sourceTree = "<group>"; };
 		CEEB4AEF2896054D002FFB83 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 		CEB59D4A2893728D00C07949 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CED2A54A289D6E9D007C6884 /* Utils */,
 				CEEB4AE4289600D8002FFB83 /* Core */,
 				CEEB4AE3289600CF002FFB83 /* Service */,
 				CEEB4AE2289600C7002FFB83 /* Model */,
@@ -173,6 +180,7 @@
 			children = (
 				CED2A52E289C3240007C6884 /* LoginView.swift */,
 				CED2A530289C3250007C6884 /* RegistrationView.swift */,
+				CED2A548289D51D0007C6884 /* ProfilePhotoSelectorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +201,14 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		CED2A54A289D6E9D007C6884 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CED2A54B289D6EAF007C6884 /* ImagePicker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		CEEB4AE1289600AC002FFB83 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +226,7 @@
 		CEEB4AE3289600CF002FFB83 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				CED2A54D289EBD2A007C6884 /* ImageUploader.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -494,12 +511,15 @@
 			files = (
 				CEEB4AFA2896062A002FFB83 /* MessagesView.swift in Sources */,
 				CEEB4AFE289606DB002FFB83 /* ProfileView.swift in Sources */,
+				CED2A54C289D6EB0007C6884 /* ImagePicker.swift in Sources */,
 				CEB59D5D2893729000C07949 /* ContentView.swift in Sources */,
 				CED2A53A289C3BF5007C6884 /* AuthHeaderView.swift in Sources */,
+				CED2A54E289EBD2B007C6884 /* ImageUploader.swift in Sources */,
 				CEEB4AED2896019A002FFB83 /* TweetsRowView.swift in Sources */,
 				CED2A535289C3953007C6884 /* CustomInputField.swift in Sources */,
 				CEEB4B0028960C80002FFB83 /* TweetFilterViewModel.swift in Sources */,
 				CEEB4AEA28960135002FFB83 /* FeedView.swift in Sources */,
+				CED2A549289D51D0007C6884 /* ProfilePhotoSelectorView.swift in Sources */,
 				CEEB4B0A289614CB002FFB83 /* SideMenuView.swift in Sources */,
 				CEB59D5B2893729000C07949 /* Twitter_SwiftUIApp.swift in Sources */,
 				CEEB4AF628960614002FFB83 /* ExploreView.swift in Sources */,
