@@ -45,7 +45,7 @@ struct ProfilePhotoSelectorView: View {
                 Button {
                     viewModel.uploadProfileImage(selectedImage)
                 } label: {
-                    Text("Continuer")
+                    Text("Continue")
                         .font(.headline)
                         .foregroundColor(.white)
                         .frame(width: 340, height: 50)
