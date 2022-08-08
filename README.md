@@ -18,6 +18,7 @@
    
   ## Learned:
   - MVVM;
+  - Animation;
   - Form structure;
   - Decode data;
   - Manipulation of data and variables;
