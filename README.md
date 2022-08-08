@@ -27,7 +27,7 @@
   - Save and fetch image from Firebase Storage;
   - Search data from database.
   
-<img src="https://user-images.githubusercontent.com/38798492/183443927-be4106cd-df2a-40c6-9060-d0a03c3f5dfb.png" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/38798492/183443927-be4106cd-df2a-40c6-9060-d0a03c3f5dfb.png" width="300" height="600">
 
 ![Simulator Screen Shot - iPhone 13 mini - 2022-08-08 at 11 35 16](https://user-images.githubusercontent.com/38798492/183443945-d0c90ba8-8ef7-4809-80a7-cb1651e05a6d.png)
 ![Simulator Screen Shot - iPhone 13 mini - 2022-08-08 at 11 36 22](https://user-images.githubusercontent.com/38798492/183443990-8d4da641-be63-41bb-b636-52cc794b45c5.png)
