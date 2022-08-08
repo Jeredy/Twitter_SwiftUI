@@ -1,6 +1,6 @@
 # Twitter App (SwiftUI && Firebase) 📱
 
-  ### guard let technology = SwiftUI && Firebase else { return }🔧
+  ### 🔧 guard let technology = SwiftUI && Firebase else { return }
 
   A mobile application based on the famous Twitter application. 
   
