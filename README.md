@@ -35,9 +35,7 @@
     </tr>
     <tr>
       <td><img src="https://user-images.githubusercontent.com/38798492/183443927-be4106cd-df2a-40c6-9060-d0a03c3f5dfb.png" width="300" height="600"></td>
-
       <td><img src="https://user-images.githubusercontent.com/38798492/183443945-d0c90ba8-8ef7-4809-80a7-cb1651e05a6d.png" width="300" height="600"></td>
-
       <td><img src="https://user-images.githubusercontent.com/38798492/183443990-8d4da641-be63-41bb-b636-52cc794b45c5.png" width="300" height="600"></td>
     </tr>
  </table>
