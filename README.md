@@ -27,13 +27,20 @@
   - Save and fetch image from Firebase Storage;
   - Search data from database.
   
-  <p float="left">
-    <img src="https://user-images.githubusercontent.com/38798492/183443927-be4106cd-df2a-40c6-9060-d0a03c3f5dfb.png" width="300" height="600">
+  <table>
+    <tr>
+      <td>First Screen Page</td>
+       <td>Holiday Mention</td>
+       <td>Present day in purple and selected day in pink</td>
+    </tr>
+    <tr>
+      <td><img src="https://user-images.githubusercontent.com/38798492/183443927-be4106cd-df2a-40c6-9060-d0a03c3f5dfb.png" width="300" height="600"></td>
 
-    <img src="https://user-images.githubusercontent.com/38798492/183443945-d0c90ba8-8ef7-4809-80a7-cb1651e05a6d.png" width="300" height="600">
+      <td><img src="https://user-images.githubusercontent.com/38798492/183443945-d0c90ba8-8ef7-4809-80a7-cb1651e05a6d.png" width="300" height="600"></td>
 
-    <img src="https://user-images.githubusercontent.com/38798492/183443990-8d4da641-be63-41bb-b636-52cc794b45c5.png" width="300" height="600">
-  </p
+      <td><img src="https://user-images.githubusercontent.com/38798492/183443990-8d4da641-be63-41bb-b636-52cc794b45c5.png" width="300" height="600"></td>
+    </tr>
+ </table>
   
 <img src="https://user-images.githubusercontent.com/38798492/183444029-178633b8-b4e1-43f2-92d9-ed69edcf6648.png" width="300" height="600">
 
