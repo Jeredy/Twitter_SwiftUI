@@ -30,7 +30,7 @@
   
   <table>
     <tr>
-       <td colspan="3">Screenshots</td>
+       <td colspan="2">Screenshots</td>
     </tr>
     <tr>
       <td><img src="https://user-images.githubusercontent.com/38798492/183443927-be4106cd-df2a-40c6-9060-d0a03c3f5dfb.png" width="300" height="600"></td>
